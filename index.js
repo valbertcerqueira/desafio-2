@@ -1,8 +1,7 @@
-let nome = "Goku"
-let xp = 1000
+
 let nivel = ""
 
-function testeNivel() {
+function testeNivel(nome, xp) {
     if (xp <= 1000){
         nivel = "Ferro"
     }
@@ -27,7 +26,7 @@ function testeNivel() {
     else if (xp >= 10001){
         nivel = "Radiante"
     }
+    console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
 }
-testeNivel()
+testeNivel("Goku", 11000)
 
-console.log(`O Herói de nome ${nome} está no nível de ${nivel}`)
