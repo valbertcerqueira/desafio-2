@@ -1,7 +1,6 @@
 
-let level = ""
-
 function testLevel(name, xp) {
+    let level = ""
     if (xp <= 1000){
         level = "Ferro"
     }
